@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between text and image */
+    background: rgba(245, 219, 176, 0.1);
+    height: 50px;
+    padding: 0 20px; /* Add horizontal padding for spacing */
+}
+
+.bus-karo{
+    padding-top: 7px;
+    font-size: 30px;
+    font-family: "Righteous", serif;
+}
+.logo{
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Maintain a square aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fits within the circle */
+    margin-left: 10px; /* Add spacing between the image and text */
+    object-fit: contain;
+    border: 2px solid rgb(0, 0, 0)
+}
+.begin {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Align items vertically */
+    gap: 15px; /* Space between image and text */
+    padding: 10px; /* Add padding around the container */
+}
+.image {
+    width: 400px; /* Adjust the size of the image */
+    height: 400px; /* Maintain a square aspect ratio */
+    margin-left: 20%;
+    margin-top: 30px;
+    border-radius: 2%;
+    object-fit: cover; /* Ensure the image scales properly */
+}
+
+/* Text container */
+.text-container {
+    display: flex;
+    flex-direction: column; /* Stack the text and link vertically */
+    justify-content: center; /* Center the content vertically */
+    margin-left: 40px;
+}
+
+/* Text styling */
+.bk2 {
+    font-size: 60px; /* Adjust text size */
+    font-family: "Righteous", serif;
+    font-optical-sizing: auto;
+ /* Remove default margin */
+}
+
+/* Link styling */
+.link {
+    font-size: 50px; /* Adjust link size */
+    color: #f7b548; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-top: 5px; /* Add spacing above the link */
+    font-family: "Roboto Slab";
+}
+
+.link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.head-text{
+    font-size: 50px; /* Adjust text size */
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    color: #1d1e18;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.cards {
+    display: flex; /* Enables flexbox */
+    flex-wrap: wrap; /* Allows wrapping to the next row if there are too many cards */
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 20px; /* Adds space between the cards */
+    margin-top: 30px;
+    padding-left: 0; /* Remove left padding for proper centering */
+}
+
+
+.card{
+    background: rgba(245, 219, 176, 0.1);
+    height: 310px;
+    width: 250px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #faf1e4;
+    border-width: 1px;
+}
+
+.pic{
+    height: 100px;
+    margin-top:40px;
+}
+
+h2{
+    margin-top: 15px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    color: hsl(70, 11%, 11%);
+}
+
+.text{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    color: #f7b548;
+}
